@@ -56,5 +56,9 @@ PROJECT_REPO_NAME=<yourproject/reponame>
 # Build custom container using Cloud Builds.
 gcloud builds submit --tag europe-west4-docker.pkg.dev/$PROJECT_REPO_NAME/flan_t5_base_finetune
 ```
+Launch training on Vertext AI.
+``` 
+python custom_trainer.py
+```
 Download the model from the cloud storage  to your workbench or locally for testing.
 
