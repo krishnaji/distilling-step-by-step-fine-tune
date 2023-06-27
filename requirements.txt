@@ -1,0 +1,16 @@
+transformers
+google-cloud-aiplatform
+tiktoken
+unstructured
+tqdm
+tabulate
+pytesseract
+pdf2image
+datasets
+accelerate
+google-generativeai
+scikit-learn
+rouge_score 
+nltk
+deepspeed
+tensorboard
